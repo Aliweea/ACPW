@@ -1,0 +1,1 @@
+ifort wrf.f90 acpw.f90 main.f90 -o run -I$NETCDF/include -L$NETCDF/lib  -lnetcdf -lnetcdff

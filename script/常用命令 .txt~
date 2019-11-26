@@ -1,0 +1,3 @@
+ifort WRF_PSO.f90 -o run -I$NETCDF/include -L$NETCDF/lib  -lnetcdf -lnetcdff
+
+ifort WRF_write.f90 -o run2 -I$NETCDF/include -L$NETCDF/lib  -lnetcdf -lnetcdff
